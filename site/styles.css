@@ -1,0 +1,10 @@
+:root{--bg:#0b1020;--panel:rgba(255,255,255,.06);--border:rgba(255,255,255,.12);--text:#eef2ff;--muted:#bac2df;--accent:#7c6bff}
+*{box-sizing:border-box}body{margin:0;font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 20% 0%,#16204a 0%,#0b1020 45%,#070b16 100%);color:var(--text);line-height:1.55}
+.wrap{max-width:860px;margin:0 auto;padding:28px 18px 56px}.nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.nav a{color:var(--text);text-decoration:none;background:var(--panel);border:1px solid var(--border);padding:8px 12px;border-radius:12px}
+.nav a.active{background:rgba(124,107,255,.18);border-color:rgba(124,107,255,.45)}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:18px;padding:22px 18px;backdrop-filter:blur(8px)}
+h1,h2{line-height:1.2;margin:0 0 12px}h1{font-size:30px}h2{font-size:20px;margin-top:22px}p,ul{margin:0 0 12px}ul{padding-left:20px}
+.muted{color:var(--muted)}.footer{margin-top:18px;color:var(--muted);font-size:14px}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:rgba(255,255,255,.08);padding:1px 6px;border-radius:6px}
+@media (max-width:600px){h1{font-size:24px}.card{padding:18px 14px}}
